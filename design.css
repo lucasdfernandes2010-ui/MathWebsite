@@ -1,6 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: yellow;
+    background-color: lightyellow;
     line-height: 1.5;
 }
 
@@ -31,6 +31,10 @@ th {
     background-color: darkgray;
 }
 
+tr:hover{
+    background:#ece7ff;
+}
+
 a {
     color: purple;
 }
@@ -38,3 +42,62 @@ a {
 a:hover {
     color: darkcyan;
 }
+
+/* ---------- Buttons ---------- */
+
+button{
+    padding:10px 20px;
+    font-size:16px;
+    border:1px solid black;
+    background:white;
+    cursor:pointer;
+    border-radius:8px;
+    transition:0.2s;
+    margin:10px 0;
+}
+
+button:hover{
+    transform:scale(1.03);
+}
+
+button:active{
+    transform:scale(0.98);
+}
+
+/* ---------- Random Question Generator ---------- */
+
+#question-list{
+    margin-top:15px;
+    padding:12px;
+    border:1px solid black;
+    border-radius:8px;
+    min-height:80px;
+}
+
+#question-list p{
+    margin:8px 0;
+}
+
+/* ---------- Quote Generator ---------- */
+
+#quote{
+    margin-top:15px;
+    padding:12px;
+    border:1px solid black;
+    border-radius:8px;
+    font-style:italic;
+    min-height:50px;
+}
+
+/* ---------- Details ---------- */
+
+details{
+    margin:8px 0;
+}
+
+summary{
+    cursor:pointer;
+    font-weight:bold;
+}
+
+
